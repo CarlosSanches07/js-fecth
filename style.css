@@ -1,0 +1,61 @@
+body, main, header, footer, p, h1{
+	margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 600;
+	margin-bottom:10px;
+	margin-top:10px;
+	color: #444;
+}
+h2{
+	font-size: 28px;
+	font-weight:400;
+	color: #444;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	margin-bottom:5px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #444;
+}
+.personal-info{
+	background-color:#FFF;
+	text-align:center;
+	padding: 2% 12%;
+}
+
+.personal-info .description{
+	margin-top: 20px;
+}
+
+.selling{
+	display: flex;
+	flex-direction: column;
+	flex-align: center;
+	justify-content: flex-start;
+	background-color: #000;
+}
+.selling img{
+	max-width: 120px;
+}
